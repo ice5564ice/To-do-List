@@ -18,6 +18,7 @@ function Todo() {
         localStorage.setItem("storage", JSON.stringify(datas))
         sortDate()
         dataToday.length === 0 ? filterData("all") : window.location.reload(0.1)
+        // eslint-disable-next-line 
     }, [datas])
 
     const addData = data => {
