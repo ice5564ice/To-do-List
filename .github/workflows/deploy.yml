@@ -13,4 +13,3 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GHA_TEST_4EF57 }}'
           channelId: live
           projectId: gha-test-4ef57
-          entryPoint: "./build"
