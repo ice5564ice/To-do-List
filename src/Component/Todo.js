@@ -70,7 +70,7 @@ function Todo() {
         if(text !== "undefined") {
             for(let i=1; i<text.length; i++) {
                 let indees = i-1
-                if((i%32)==0){
+                if((i%32) === 0){
                     Str.push(text[indees])
                     Str.push(" ")
                 }
